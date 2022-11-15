@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlumberBar</title>
+  </head>
+  <body>
+    <style media="screen">
+      body{
+        font-family: 'Sono', cursive;
+
+        font-size: 1.1em;
+
+        color: white;
+        background-color :#ffffff;
+        text-align: center;
+        background-repeat: space;
+
+        margin: 0px;
+      }
+    input {
+      width: 80%;
+    }
+
+    p{
+      padding-top: 0%;
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-bottom: 0%;
+    }
+    #sub{
+      background-color: #000000;
+      height:30px;
+      width: 120px;
+      margin:1px;
+      margin-top: 4px;
+      font-size:1.2em;
+      border-radius: 25px;
+      color: white;
+    }
+    .fillDetails{
+      background-image: url("blob:https://web.whatsapp.com/f355b50a-feac-45f0-80dc-5230f812e3e2");
+      background-size:contain;
+      background-position:bottom;
+      background-repeat: no-repeat;
+      background-clip: content-box;
+      height: 500px;
+      width: 350px;
+
+    }
+    </style>
+    <div class="container" align='center'>
+      <div class="fillDetails" align='center'>
+        <h1>אנא מלאו פרטים ואחזור אליכם בהקדם</h1>
+        <form action="https://formspree.io/f/maykvdzo" method="post">
+          <label for="firstName"></label>
+          <input type="text" name="firstName" placeholder="שם פרטי" required="">
+          <label for="lastName"><p></p></label>
+          <input type="text" name="lastName" placeholder="שם משפחה" required="">
+          <label for="phone"><p></p></label>
+          <input type="phone" name="phone" placeholder="מספר טלפון" required="">
+          <label></label>
+          <input type="text" name="" value="טקסט חופשי">
+
+          <p></p>
+          <div class="sub">
+          <input id="sub" type="submit" name="submit btn"></div>
+       </form>
+      </div>
+     </div>
+  </body>
+</html>
